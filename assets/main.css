@@ -74,7 +74,7 @@ hero {
   font-size: 30px;
   display: flex;
   justify-content: center;
-  position: fixed;
+  /* position: fixed; */
   bottom: 250px;
   width: 100%;
 
@@ -97,6 +97,18 @@ hero {
   }
 }
 @media (max-width: 590px) {
+  .colored {
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    justify-content: center;
+    position: fixed;
+    bottom: 300px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
   body {
     font-family: 'Cormorant SC', serif;
     font-weight: 500;
